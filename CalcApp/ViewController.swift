@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    //ここで宣言することでCarclassが使えるようになる
+    var carModel = Car()
 
     override func viewDidLoad() {
         super.viewDidLoad()
