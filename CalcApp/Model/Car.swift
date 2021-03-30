@@ -15,8 +15,8 @@ class Car {
     //イニシャライズの略(初期化のこと）　必ず書くこと
     init() {
         
-        frontWheel = 2
-        rearWheel = 2
+        frontWheel = 0
+        rearWheel = 0
         
     }
     
