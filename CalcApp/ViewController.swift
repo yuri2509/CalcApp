@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         carModel.drive()
         carModel.move(toBack: "後ろに行く")
         
+        carModel.plusAndMinus(num1: carModel.frontWheel, num2: carModel.rearWheel)
+        
     }
     
 }
