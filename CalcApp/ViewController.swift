@@ -30,7 +30,6 @@ class ViewController: UIViewController {
         carModel.move(toBack: "後ろに行く")
         
         let total = carModel.plusAndMinus(num1: carModel.frontWheel, num2: carModel.rearWheel)
-        print(total)
         print("タイヤの合計数   \(total)")
         
     }
